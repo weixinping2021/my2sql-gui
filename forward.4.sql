@@ -1,0 +1,14 @@
+INSERT INTO `test4` (`a`) VALUES (1);
+;
+INSERT INTO `test4` (`a`) VALUES (2);
+;
+INSERT INTO `test4` (`a`) VALUES (3);
+;
+INSERT INTO `test4` (`a`) VALUES (4);
+;
+INSERT INTO `test4` (`a`) VALUES (5);
+;
+UPDATE `test4` SET `a`=100 WHERE `a`=3;
+;
+DELETE FROM `test4` WHERE `a`=100;
+;

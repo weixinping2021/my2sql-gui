@@ -1,0 +1,2 @@
+binlog            starttime           stoptime            startpos   stoppos    inserts  updates  deletes  database        table               
+mysql-bin.001092  2026-01-21_16:59:10 2026-01-21_16:59:10 377458370  377458464  1        0        0        dbtest1         test7               

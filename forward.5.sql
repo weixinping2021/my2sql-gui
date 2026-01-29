@@ -1,0 +1,10 @@
+INSERT INTO `test4` (`a`) VALUES (1);
+;
+INSERT INTO `test4` (`a`) VALUES (2);
+;
+INSERT INTO `test4` (`a`) VALUES (3);
+;
+INSERT INTO `test4` (`a`) VALUES (4);
+;
+INSERT INTO `test4` (`a`) VALUES (5);
+;
