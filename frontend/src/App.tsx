@@ -260,7 +260,6 @@ const App: React.FC = () => {
                     <Form.Item label="目标数据库" name="databases" rules={[{ required: true }]}>
                       <Select 
                         showSearch 
-                        spellCheck={false}
                         options={availableDbs.map(d => ({ label: d, value: d }))} 
                         onChange={async (db) => {
                           const tbs = await GetTables(form.getFieldValue('connectionString'), [db]);
@@ -269,7 +268,7 @@ const App: React.FC = () => {
                       />
                     </Form.Item>
                     <Form.Item label="目标表名" name="tables">
-                      <Select mode="multiple" spellCheck={false} placeholder="不选则分析全库" options={availableTables.map(t => ({ label: t, value: t }))} />
+                      <Select mode="multiple"  placeholder="不选则分析全库" options={availableTables.map(t => ({ label: t, value: t }))} />
                     </Form.Item>
                     <Form.Item label="时间段过滤" name="timeRange">
                       <RangePicker showTime style={{ width: '100%' }} />
